@@ -3,7 +3,7 @@
 Веб-приложение для просмотра видеоконтента с возможностью поиска и фильтрации.
 
 ## 🔗 Ссылка на проект
-[@https://github.com/Sergei-Popov/posmotri-v-okno-fd](https://github.com/Sergei-Popov/posmotri-v-okno-fd)
+https://github.com/Sergei-Popov/posmotri-v-okno-fd
 
 ## 📁 Структура проекта
 
