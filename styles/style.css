@@ -331,7 +331,7 @@ ol {
   font-style: normal;
   line-height: 16.2px;
   line-clamp: 4;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
