@@ -1,0 +1,20 @@
+{
+  "name": "posmotri-v-okno-fd",
+  "version": "0.0.1",
+  "description": "Яндекс.Практикум, 2-й спринт, проект 'Посмотри в окно'",
+  "main": "index.js",
+  "scripts": {
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint \"**/*.css\"",
+    "lintfix": "stylelint '**/*.css' --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run format && npm run lintfix"
+  },
+  "author": "Sergei-Popov",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.6.2",
+    "stylelint": "^16.23.0"
+  }
+}

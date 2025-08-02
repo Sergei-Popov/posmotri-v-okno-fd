@@ -35,6 +35,8 @@
 }
 
 @keyframes focusfade {
+  /* prettier-ignore-start */
+  /* stylelint-disable-next-line */
   0% {
     opacity: 0.7;
   }
@@ -54,4 +56,5 @@
   100% {
     opacity: 0.7;
   }
+  /* prettier-ignore-end */
 }
