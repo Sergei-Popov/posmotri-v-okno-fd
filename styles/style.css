@@ -299,11 +299,11 @@ ol {
   padding-right: 3px;
 }
 
-.content__list-item:focus {
+.content__card-link:focus {
   outline: none;
 }
 
-.content__list-item:focus-visible {
+.content__card-link:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 2px;
 }
@@ -321,6 +321,7 @@ ol {
   flex-grow: 1;
   min-width: 0;
   flex-shrink: 1;
+  max-width: 196px;
 }
 
 .content__video-card-description {
@@ -329,7 +330,7 @@ ol {
   font-weight: 400;
   font-style: normal;
   line-height: 16.2px;
-  line-clamp: 1;
+  line-clamp: 4;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -339,6 +340,7 @@ ol {
 
 .content__video-card-title {
   font-size: 30px;
+  line-height: 1;
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
