@@ -330,12 +330,12 @@ ol {
   font-weight: 400;
   font-style: normal;
   line-height: 16.2px;
+  display: -webkit-box; /* Я перепроверил, теперь работает на 4-й строке */
   line-clamp: 4;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .content__video-card-title {
